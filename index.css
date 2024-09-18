@@ -1,0 +1,148 @@
+.page {
+    background-color: darkslategray;
+    margin: auto;
+    width: 360px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 132px;
+}
+.header_menu-link {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+}
+.header_menu {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header_logo{
+    width: 176px;
+    height: 120px;
+}
+.header_menu-item {
+    margin-bottom: 12pxs;
+}
+.header_menu-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.cover {
+    width: 360px;
+    height: 360px;
+    background-image: url(./mikuagree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.cover_title {
+    margin: 0;
+    color: rgba(255, 0, 51, 0.548);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    line-height: 100%;
+    font-weight: 400;  
+    margin-top: 250px;  
+}
+.text-center {
+    text-align: center;
+}
+.accent-span {
+    display: block;
+    
+}
+h1 {
+    margin: 0;
+}
+.intro {
+    background-color: black;
+    border: 3px solid crimson;
+    margin: 10px;
+}
+.intro_main-text {
+    color: whitesmoke;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro_main-gif {
+    margin: 0;
+    width: 334px;
+    height: auto;
+}
+.end {
+    background-color: darkgrey;
+    border: 2px solid black;
+}
+.title_end {
+    font-size: 20px;
+}
+.text_end {
+    font-size: 10px;
+}
+.link_end {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+
+}
+.logoend {
+    width: 88px;
+    height: 60px;
+}
+.moretext {
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.moretext-title {
+    font-weight: 670;
+}
+.moretext-info {
+    font-weight: 500;
+}
+.logoend-name {
+    display: flex;
+}
+.moretext-item {
+    display: flex;
+}
+.moretext-pr {
+    font-weight: 550;
+}
+.two_info {
+    background-color: greenyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quote {
+    background-color: black;
+    border: 3px solid purple;
+    color: whitesmoke;
+    margin: 4px;
+}
+.quote_ava {
+    width: 50px;
+    height: auto;
+    margin: 1px;
+}
+.quote_an {
+    display: flex;
+    margin: 1px;
+}
+.quote_name {
+    font-size: 16px;
+}
+.quote_text_errormeme {
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1px;
+}
+.quote_text {
+    margin: 1px;
+}
